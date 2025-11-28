@@ -1,0 +1,6 @@
+{
+  "liveServer.settings.ignoreFiles": [
+    "**/*.db",
+    "**/database/chat.db"
+  ]
+}

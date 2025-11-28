@@ -170,6 +170,9 @@ def rag_retrieve(business_id: str, query: str, top_k=4):
 
     scored.sort(key=lambda x: x[0], reverse=True)
     return [t for _, t in scored[:top_k]]
+@app.get("/health")
+def health():
+    return {"status": "healthy"}
 
 # -----------------------------------------------------
 # CHAT ENDPOINT

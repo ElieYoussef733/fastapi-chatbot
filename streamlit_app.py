@@ -11,7 +11,7 @@ import streamlit as st
 # -----------------------------
 load_dotenv()
 
-BACKEND_URL = os.getenv("BACKEND_URL", "http://127.0.0.1:8000/chat")
+BACKEND_URL = "https://fastapi-chatbot-780g.onrender.com/chat"
 MASTER_API_KEY = os.getenv("MASTER_API_KEY")  # same as FastAPI
 
 BUSINESS_DIR = "business"

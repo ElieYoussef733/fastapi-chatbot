@@ -14,7 +14,7 @@ load_dotenv()
 BACKEND_URL = "https://fastapi-chatbot-780g.onrender.com/chat"
 
 # Public demo API key (safe for Streamlit)
-DEMO_KEY = os.getenv("PUBLIC_DEMO_KEY", "Demo367")
+DEMO_KEY = os.getenv("PUBLIC_DEMO_KEY", "demo123")
 
 HEADERS = {"x-api-key": DEMO_KEY}
 

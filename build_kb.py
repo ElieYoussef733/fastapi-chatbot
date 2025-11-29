@@ -103,3 +103,5 @@ def build_kb_for_business(business_id: str):
 
 if __name__ == "__main__":
     build_kb_for_business("phone_store_ali")
+if __name__ == "__main__":
+    build_kb_for_business("gym_180fitness")

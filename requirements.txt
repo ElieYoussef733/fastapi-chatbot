@@ -8,3 +8,8 @@ pydantic
 numpy
 pypdf
 openai
+PyPDF2
+python-docx
+openpyxl
+pillow
+pytesseract
